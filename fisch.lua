@@ -1,4 +1,4 @@
-if getgenv().cuppink then warn("حمود Hub : Already executed!") return end
+if getgenv().cuppink then warn("Mohammed Hub : Already executed!") return end
 getgenv().cuppink = true
 
 if not game:IsLoaded() then
@@ -64,8 +64,8 @@ if DeviceType == "Mobile" then
 end
 
 local Window = Fluent:CreateWindow({
-    Title = game:GetService("MarketplaceService"):GetProductInfo(16732694052).Name .." | حمود - Premium",
-    SubTitle = " (discord.gg/mohamed)",
+    Title = game:GetService("MarketplaceService"):GetProductInfo(16732694052).Name .." | Mohammed - Premium",
+    SubTitle = " (discord.gg/cT34Cx4TGC)",
     TabWidth = 160,
     Size = UDim2.fromOffset(580, 460),
     Acrylic = false, -- The blur may be detectable, setting this to false disables blur entirely
@@ -119,7 +119,7 @@ local RunCount = false
 -- // // // Functions // // // --
 function ShowNotification(String)
     Fluent:Notify({
-        Title = "CupPink Hub",
+        Title = "Mohammed Hub",
         Content = String,
         Duration = 5
     })
@@ -1073,7 +1073,7 @@ end
 
 Window:SelectTab(1)
 Fluent:Notify({
-    Title = "CupPink",
+    Title = "Mohammed",
     Content = "Executed!",
     Duration = 8
 })
